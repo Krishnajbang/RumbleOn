@@ -1,0 +1,81 @@
+2017-11-12 00:30:38,003 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 00:31:33,815 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 01:21:35,277 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 01:22:57,316 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 01:28:22,282 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 01:30:05,947 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 01:32:00,208 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 01:32:57,625 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 01:58:25,508 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 01:59:22,313 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 18:46:22,671 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 18:47:51,148 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 18:51:04,567 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 18:52:33,156 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 19:04:05,977 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 19:08:06,917 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 19:09:45,788 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 19:22:07,257 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 19:38:25,431 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 19:41:14,439 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 19:41:37,995 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 19:48:58,645 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 19:49:58,300 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 23:05:11,563 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 23:05:55,067 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 23:35:18,305 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 23:36:28,678 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 23:36:58,689 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 23:39:09,074 INFO  [Log] BrowserClose: From Main test 
+2017-11-12 23:49:38,577 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-12 23:50:40,740 INFO  [Log] BrowserClose: From Main test 
+2017-11-13 08:06:40,521 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-14 07:58:16,660 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-15 20:53:09,312 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-15 20:54:14,870 INFO  [Log] BrowserClose: From Main test 
+2017-11-21 00:29:07,058 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-21 00:29:44,486 INFO  [Log] BrowserClose: From Main test 
+2017-11-21 00:43:29,942 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-21 00:43:51,942 INFO  [Log] BrowserClose: From Main test 
+2017-11-21 00:44:29,031 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-21 00:45:03,910 INFO  [Log] BrowserClose: From Main test 
+2017-11-21 00:50:51,265 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-21 00:51:19,293 INFO  [Log] BrowserClose: From Main test 
+2017-11-21 01:12:55,464 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-21 01:14:25,505 INFO  [Log] BrowserClose: From Main test 
+2017-11-21 09:02:52,246 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-21 09:03:12,527 INFO  [Log] Clicking on Sign-Up Button 
+2017-11-21 09:03:12,707 INFO  [Log] Clicking on Customer Button 
+2017-11-21 09:03:12,923 INFO  [Log] Entering User Name 
+2017-11-21 09:03:13,295 INFO  [Log] Entering Password 
+2017-11-21 09:03:13,511 INFO  [Log] Clicking on LonIn Button 
+2017-11-21 09:03:13,657 INFO  [Log] Clicking on LonIn Button 
+2017-11-21 09:03:13,787 INFO  [Log] BrowserClose: From Main test 
+2017-11-21 09:04:24,252 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-21 09:04:54,328 INFO  [Log] Clicking on Sign-Up Button 
+2017-11-21 09:04:54,519 INFO  [Log] Clicking on Customer Button 
+2017-11-21 09:04:54,735 INFO  [Log] Entering User Name 
+2017-11-21 09:04:55,097 INFO  [Log] Entering Password 
+2017-11-21 09:04:55,307 INFO  [Log] Clicking on LonIn Button 
+2017-11-21 09:05:05,471 INFO  [Log] Customer profile check for login 
+2017-11-21 09:05:06,417 INFO  [Log] BrowserClose: From Main test 
+2017-11-21 09:06:29,200 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-21 09:06:54,050 INFO  [Log] Clicking on Sign-Up Button 
+2017-11-21 09:06:54,245 INFO  [Log] Clicking on Customer Button 
+2017-11-21 09:06:54,468 INFO  [Log] Entering User Name 
+2017-11-21 09:06:54,860 INFO  [Log] Entering Password 
+2017-11-21 09:06:55,078 INFO  [Log] Clicking on LonIn Button 
+2017-11-21 09:07:05,257 INFO  [Log] Customer profile check for login 
+2017-11-21 09:07:06,180 INFO  [Log] BrowserClose: From Main test 
+2017-11-22 08:28:37,790 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-22 08:30:37,332 INFO  [Log] Clicking on Sign-Up Button 
+2017-11-22 08:31:22,681 INFO  [Log] Clicking on Sign-Up Button 
+2017-11-22 08:31:22,765 INFO  [Log] BrowserClose: From Main test 
+2017-11-22 08:47:45,671 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-22 08:50:12,225 INFO  [Log] Clicking on Sign-Up Button 
+2017-11-22 08:52:13,375 INFO  [Log] Clicking on Customer Button 
+2017-11-22 08:52:13,627 INFO  [Log] Entering User Name 
+2017-11-22 08:52:13,963 INFO  [Log] Clicking on LogIn Button 
+2017-11-22 08:52:24,129 INFO  [Log] BrowserClose: From Main test 
+2017-11-22 08:54:48,265 INFO  [Log] OpeingBrowser:InfoMainTest 
+2017-11-22 09:01:02,390 INFO  [Log] BrowserClose: From Main test 
