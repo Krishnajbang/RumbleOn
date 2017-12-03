@@ -36,7 +36,7 @@ public class App extends UtilCommon{
 	@BeforeMethod
 	public void SetUp() throws InterruptedException, FileNotFoundException, IOException
 	{
-		//commit aa
+		Log.startTestCase(data.TestCaseDesc+" "+data.TestCaseID);
 		data.getData("TC002", "D:\\ExcelFile\\RumbleOnData.xlsx");
 		System.out.println("Printed Value from data "+data.Browser);
 		System.out.println("Printed Value from data "+data.Environment);
