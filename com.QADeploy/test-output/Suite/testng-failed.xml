@@ -7,7 +7,6 @@
         <methods>
           <include name="SetUp"/>
           <include name="TC001_Login"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- Application.App -->
     </classes>

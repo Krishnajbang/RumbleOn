@@ -59,6 +59,7 @@ public class UtilCommon{
 		}
 		if(browserName.equals("edge"))
 		{
+			System.out.println("EdgeTriggered");
 			System.setProperty("webdriver.edge.driver", driverPath+"MicrosoftWebDriver.exe");
 			driver = new EdgeDriver();
 		}

@@ -13,9 +13,13 @@ import org.apache.xalan.xsltc.DOM;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.w3c.dom.DOMConfiguration;
+
+
 
 
 
@@ -29,9 +33,10 @@ public class App extends UtilCommon{
 	
 	
 	
-	@BeforeClass
+	@BeforeMethod
 	public void SetUp() throws InterruptedException, FileNotFoundException, IOException
 	{
+		//commit aa
 		data.getData("TC002", "D:\\ExcelFile\\RumbleOnData.xlsx");
 		System.out.println("Printed Value from data "+data.Browser);
 		System.out.println("Printed Value from data "+data.Environment);
@@ -52,6 +57,7 @@ public class App extends UtilCommon{
 		captureScreenShot(data.TestCaseID, "");
 		Log.debug("Navigate: From Main test");	
 	}
+	
 	
 	@Test 
 	public void TC001_Login() throws InterruptedException
@@ -105,7 +111,7 @@ public class App extends UtilCommon{
 //	}
 	
 	
-	@AfterClass
+	@AfterMethod
 	public void tearDown() {
 		if(driver!=null) {
 			//resultScreenshot(data.TestCaseID);
