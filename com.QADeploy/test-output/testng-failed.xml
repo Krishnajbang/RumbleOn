@@ -5,8 +5,12 @@
     <classes>
       <class name="Application.App">
         <methods>
-          <include name="SetUp"/>
+          <include name="TC002_Login"/>
+          <include name="TC004_Login"/>
+          <include name="TC005_Login"/>
           <include name="TC001_Login"/>
+          <include name="TC003_Login"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- Application.App -->
     </classes>

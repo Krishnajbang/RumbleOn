@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="0" failed="5" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4100" started-at="2017-12-03T17:55:42Z" finished-at="2017-12-03T17:55:46Z">
+  <suite name="Default suite" duration-ms="1476" started-at="2017-12-11T02:08:48Z" finished-at="2017-12-11T02:08:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4100" started-at="2017-12-03T17:55:42Z" finished-at="2017-12-03T17:55:46Z">
+    <test name="Default test" duration-ms="1476" started-at="2017-12-11T02:08:48Z" finished-at="2017-12-11T02:08:50Z">
       <class name="Application.App">
-        <test-method status="FAIL" signature="SetUp()[pri:0, instance:Application.App@71318ec4]" name="SetUp" is-config="true" duration-ms="0" started-at="2017-12-03T23:25:42Z" finished-at="2017-12-03T23:25:42Z">
-          <exception class="java.lang.NoSuchMethodError">
-            <message>
-              <![CDATA[org.openqa.selenium.remote.DesiredCapabilities.edge()Lorg/openqa/selenium/remote/DesiredCapabilities;]]>
-            </message>
+        <test-method status="FAIL" signature="TC001_Login()[pri:0, instance:Application.App@31610302]" name="TC001_Login" duration-ms="1105" started-at="2017-12-11T07:38:48Z" finished-at="2017-12-11T07:38:49Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.remote.DesiredCapabilities.edge()Lorg/openqa/selenium/remote/DesiredCapabilities;
-	at org.openqa.selenium.edge.EdgeOptions.toCapabilities(EdgeOptions.java:98)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:98)
-	at Utilities.UtilCommon.OpenBrowser(UtilCommon.java:64)
-	at Application.App.SetUp(App.java:51)
+              <![CDATA[java.lang.NullPointerException
+	at Utilities.UtilCommon.OpenBrowser(UtilCommon.java:50)
+	at Application.App.SetUp(App.java:46)
+	at Application.App.TC001_Login(App.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
@@ -47,15 +40,175 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="SKIP" signature="TC001_Login()[pri:0, instance:Application.App@71318ec4]" name="TC001_Login" duration-ms="5" started-at="2017-12-03T23:25:46Z" finished-at="2017-12-03T23:25:46Z">
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_Login -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Application.App@71318ec4]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-12-03T23:25:46Z" finished-at="2017-12-03T23:25:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Application.App@31610302]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-12-11T07:38:49Z" finished-at="2017-12-11T07:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="TC002_Login()[pri:0, instance:Application.App@31610302]" name="TC002_Login" duration-ms="114" started-at="2017-12-11T07:38:49Z" finished-at="2017-12-11T07:38:50Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Utilities.UtilCommon.OpenBrowser(UtilCommon.java:50)
+	at Application.App.SetUp(App.java:46)
+	at Application.App.TC002_Login(App.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_Login -->
+        <test-method status="FAIL" signature="TC003_Login()[pri:0, instance:Application.App@31610302]" name="TC003_Login" duration-ms="75" started-at="2017-12-11T07:38:50Z" finished-at="2017-12-11T07:38:50Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Utilities.UtilCommon.OpenBrowser(UtilCommon.java:50)
+	at Application.App.SetUp(App.java:46)
+	at Application.App.TC003_Login(App.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Application.App@31610302]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-12-11T07:38:50Z" finished-at="2017-12-11T07:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Application.App@31610302]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-12-11T07:38:50Z" finished-at="2017-12-11T07:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="TC004_Login()[pri:0, instance:Application.App@31610302]" name="TC004_Login" duration-ms="73" started-at="2017-12-11T07:38:50Z" finished-at="2017-12-11T07:38:50Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Utilities.UtilCommon.OpenBrowser(UtilCommon.java:50)
+	at Application.App.SetUp(App.java:46)
+	at Application.App.TC004_Login(App.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Application.App@31610302]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-12-11T07:38:50Z" finished-at="2017-12-11T07:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="TC005_Login()[pri:0, instance:Application.App@31610302]" name="TC005_Login" duration-ms="67" started-at="2017-12-11T07:38:50Z" finished-at="2017-12-11T07:38:50Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Utilities.UtilCommon.OpenBrowser(UtilCommon.java:50)
+	at Application.App.SetUp(App.java:46)
+	at Application.App.TC005_Login(App.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Application.App@31610302]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-12-11T07:38:50Z" finished-at="2017-12-11T07:38:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
